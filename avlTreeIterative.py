@@ -243,7 +243,6 @@ def deleteIter(root, val):
                 for node in range(len(parents)):
                     currentNode = parents[iterator]
                     # Check if current node is unbalanced
-                    print("Checking for disbalance in " + str(currentNode.val))
                     if not checkIfBalanced(currentNode):
                         # Return the balanced subtree
                         currentNode = balanceAVLTree(currentNode)
