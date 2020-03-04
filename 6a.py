@@ -1,4 +1,3 @@
-# AVLTree iterative and BST iterative
 #
 # Created by Yevhenii Ganusich
 #
@@ -475,10 +474,6 @@ def findMaxIter(root):
 # -----------------------------------------------
 # Iterative implementation of BST Tree
 # -----------------------------------------------
-
-#
-# Created by Yevhenii Ganusich
-#
 
 
 class Node:
